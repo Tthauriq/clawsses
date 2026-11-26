@@ -31,7 +31,7 @@ class OpenClawClient(
     companion object {
         private const val TAG = "OpenClawClient"
         private const val RECONNECT_DELAY_MS = 3000L
-        private const val PROTOCOL_VERSION = 4
+        private const val PROTOCOL_VERSION = 3
     }
 
     sealed class ConnectionState {
